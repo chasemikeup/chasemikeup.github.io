@@ -18,7 +18,7 @@ myImage.onclick = function() {
 
 // change user
 let nameButton = document.querySelector('.ChangeName');
-let myHeading = document.querySelector('h1');
+let myHeading = document.querySelector('.Name');
 function setUserName() {
 	let userName = prompt('Personalize the title of the website with your name! Please enter it here: ');
 	if(!userName || userName === null)
