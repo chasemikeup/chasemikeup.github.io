@@ -45,3 +45,9 @@ img[src] {
 a:hover { /* color when hovering the link */
 	color: firebrick;
 }
+
+.OnSiteLinks {
+	background-color: beige;
+	padding-right: 100px;
+	border: thin;
+}

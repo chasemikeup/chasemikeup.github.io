@@ -17,10 +17,10 @@ myImage.onclick = function() {
 }
 
 // change user
-let myButton = document.querySelector('button');
+let nameButton = document.querySelector('.ChangeName');
 let myHeading = document.querySelector('h1');
 function setUserName() {
-	let userName = prompt('Please enter your name: ');
+	let userName = prompt('Personalize the title of the website with your name! Please enter it here: ');
 	if(!userName || userName === null)
 		{
 			myHeading.textContent = 'Chase Mike Up!'
@@ -39,7 +39,7 @@ else {
 	myHeading.textContent = 'Chase ' + storedName + ' Up!';
 }
 
-myButton.onclick = function() {
+nameButton.onclick = function() {
 	setUserName();
 }
 
