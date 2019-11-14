@@ -1,0 +1,47 @@
+/* CSS Document */
+
+html { /* setting the base font size and base font for all texts */
+	font-size: 10px;
+	font-family: 'Montserrat', sans-serif;
+	background-color:beige;
+}
+
+body {
+	width: 600px;
+	margin: 0 auto;
+}
+
+button {
+	text-align: center;
+}
+
+button:hover {
+	color: firebrick;
+}
+
+h1 {
+	margin: 0;
+	text-align: center;
+	text-shadow: 3px 2px 1px gray;
+	font-size: 60px;
+}
+
+p, li { /* setting the paragraphs and list */
+	color: darkslategray;
+	padding: 1px;
+	line-height: 2;
+	letter-spacing: 1px;
+	text-align: justify;
+}
+
+img[src] {
+	display: block;
+	width: 400px;
+	height: auto;
+	margin: 0 auto;
+	align-content: center;
+}
+
+a:hover { /* color when hovering the link */
+	color: firebrick;
+}
