@@ -50,10 +50,8 @@ a:hover { /* color when hovering the link */
 	background-color: beige;
 	padding-right: 100px;
 	border: thin;
-}
-
-tr {
-	font-size: 15px;
+	font-size: 13px;
+	width: 600px;
 }
 
 
