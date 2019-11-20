@@ -1,7 +1,11 @@
 // JavaScript Document
 
-document.querySelector('p').onclick = function() {
-	alert('Stop poking me and start running!')
+let checkp = document.querySelector('p');
+checkp.onclick = function() {
+	if(checkp != null)
+		{
+			alert('Stop poking me and start running!')
+		}
 }
 
 // change the picture when clicked
