@@ -51,3 +51,9 @@ a:hover { /* color when hovering the link */
 	padding-right: 100px;
 	border: thin;
 }
+
+tr {
+	font-size: 15px;
+}
+
+
