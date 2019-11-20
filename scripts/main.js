@@ -42,4 +42,3 @@ else {
 nameButton.onclick = function() {
 	setUserName();
 }
-
